@@ -2,6 +2,8 @@
 
 A small 2D browser dungeon game built with **Phaser, TypeScript, and Vite**. Fight through three randomized rooms, choose upgrades, and defeat the crown guardian.
 
+**[Play Pocket Dungeon online](https://raising-heart.github.io/pocket-dungeon/)** — free to play in your browser.
+
 ## Features
 
 - Shuffled room layouts, enemy positions, and themes on each run.
@@ -43,6 +45,8 @@ npm run preview
 ```
 
 The 16 tests cover gameplay, enemy attacks, and safety checks across 1,500 generated room layouts. Production files are built into `dist/`.
+
+GitHub Pages automatically publishes updates pushed to `main` after the tests and build pass.
 
 ## License
 
